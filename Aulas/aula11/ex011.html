@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alfândega</title>
+  </head>
+  <body>
+    <h1>Check-in Nacionalidade</h1>
+    De onde você é:
+    <input type="text" name="pais" id="pais" />
+    <input type="button" value="Validar" onclick="verificar()" />
+    <div id="resp"></div>
+    <script>
+      function verificar() {
+        var pais = document.getElementById("pais");
+        var resp = document.getElementById("resp");
+        var ver = String(pais.value);
+        resp.innerHTML = `<p>Você está no/na <strong>${ver}</strong></p>`;
+        if (ver == "Brasil") {
+          resp.innerHTML += `<p>Você é Brasileiro! Bom retorno</p>`;
+        } else{ // Condição Composta
+            resp.innerHTML += `<p>Você é estrangeiro!
+            Seja bem-vindo!</p>`;
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+body{
+    font: 12pt Arial;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-size: 12pt; 
+    padding: 30px;
+    border-radius: 8px;
+}

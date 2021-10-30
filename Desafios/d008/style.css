@@ -1,0 +1,16 @@
+body{
+    font: 12pt Arial;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ebeef1;
+}
+
+button{
+    font-size: 12pt; 
+    padding: 30px;
+
+    border-radius: 8px;
+}

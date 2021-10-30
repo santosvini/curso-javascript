@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #adadce;
+
+}
+
+button {
+    font-size: 16pt;
+
+    display: inline-flex;
+    align-items: center;
+
+    background-color: #584a4c;
+    width: auto;
+    padding: 30px;
+    margin: 20px 5px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(243, 231, 231);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.container-botoes{
+    display: flex;
+    justify-content: center;
+}

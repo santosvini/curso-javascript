@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+    <script type="text/javascript">
+      const cotacao_usd = (() => {
+        return prompt("Antes de mais nada. Quanto está a contação do dólar agora?").replace(",", ".")
+      })();
+    </script>
+    
+    <title>Conversor R$ -> US$</title>
+</head>
+<body>
+    <h1>Casa de Câmbio </h1>
+    <button onclick="cambio()">Dolarizar</button>
+    <section id=saida>
+        <p>Clique no botão para verificar o câmbio</p>
+    </section>
+    <script src="cambio.js"></script>
+</body>
+</html>
