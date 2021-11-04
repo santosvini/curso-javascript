@@ -15,16 +15,24 @@
 
     <script>
         var corpo = document.body
+        var p0 = document.getElementsByTagName('p')[0]
         var p1 = document.getElementsByTagName('p')[1]
-        p1.style.background = 'orange'
+        p0.style.background = 'pink'
+        p1.style.background = 'red'
+        
         /* var d = document.getElementById('msg')
         d.style.background = 'gray'
-        d.innerText = 'Estou aguardando' */
+        d.addEventListener('mouseenter', entrar)
+        function entrar() {
+            d.innerText = 'Estou aguardando'
+            d.innerHTML = 'Vou mudar a escrita'
+        } */
+
         /* var d = document.getElementsByName('msg')[0]
         d.innerText = 'Ola!' */
         
-        var d = document.querySelector("div.msg")
-        d.style.background = 'gray'
+        /* var d = document.querySelector("div.msg")
+        d.style.background = 'gray' */
 
     </script>
 
