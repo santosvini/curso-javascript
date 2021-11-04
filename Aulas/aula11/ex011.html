@@ -16,8 +16,8 @@
       function verificar() {
         var pais = document.getElementById("pais");
         var resp = document.getElementById("resp");
-        var ver = String(pais.value);
-        resp.innerHTML = `<p>Você está no/na <strong>${ver}</strong></p>`;
+        var ver = (pais.value);
+        resp.innerHTML = `<p>Você está no/na <mark><strong>${ver}</strong></mark></p>`;
         if (ver == "Brasil") {
           resp.innerHTML += `<p>Você é Brasileiro! Bom retorno</p>`;
         } else{ // Condição Composta
