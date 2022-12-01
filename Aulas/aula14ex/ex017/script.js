@@ -12,6 +12,7 @@ function contar() {
         var i = Number(ini.value)
         var f = Number(fim.value)
         var p = Number(passo.value)
+        
         if (p <= 0) {
             alert('Passo inválido! Considerando PASSO 1')
             p = 1
