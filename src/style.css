@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 18px Arial;
+}
+
+h1 {
+  color: coral;
+  text-align: center;
+  margin-bottom: 14px;
+  padding-top: 12px;
+}
+
+section {
+  background-color: lightgrey;
+  margin: 0 auto;
+  width: 220px;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 2px 4px 8px black;
+}
+
+div {
+  margin: 12px;
+  padding: 12px;
+  text-align: center;
+}
+
+a {
+  font: 20px Helvetica;
+  color: black;
+  text-decoration: none;
+}

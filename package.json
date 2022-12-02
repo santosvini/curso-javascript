@@ -1,0 +1,27 @@
+{
+  "name": "curso-javascript",
+  "version": "1.0.0",
+  "description": "Testes e2e nos projetos de desafios e aulas com JS",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santosvini/curso-javascript.git"
+  },
+  "keywords": [
+    "e2e",
+    "cypress",
+    "javascript",
+    "automation",
+    "web"
+  ],
+  "author": "Vini Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santosvini/curso-javascript/issues"
+  },
+  "homepage": "https://github.com/santosvini/curso-javascript#readme"
+}
