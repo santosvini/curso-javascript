@@ -6,27 +6,27 @@ function estações() {
     case "JANEIRO":
     case "FEVEREIRO":
     case "MARÇO":
-      estação = "INVERNO";
+      estacao = "INVERNO";
       break
     case "ABRIL":
     case "MAIO":
     case "JUNHO":
-      estação = "PRIMAVERA";
+      estacao = "PRIMAVERA";
       break
     case "JULHO":
     case "AGOSTO":
     case "SETEMBRO":
-      estação = "VERÃO";
+      estacao = "VERÃO";
       break
     case "OUTUBRO":
     case "NOVEMBRO":
     case "DEZEMBRO":
-      estação = "OUTONO";
+      estacao = "OUTONO";
       break
     default:
-      estação = "INDEFINIDA";
+      estacao = "INDEFINIDA";
       break
   }
-  saida.innerHTML = `<p>No mês de <mark>${mês}</mark>, estamos na estação <mark><strong>${estação}</strong></mark></p>.`
+  saida.innerHTML = `<p>No mês de <mark>${mês}</mark>, estamos na estacao <mark><strong>${estacao}</strong></mark></p>.`
 
 }

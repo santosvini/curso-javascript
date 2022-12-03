@@ -13,7 +13,7 @@ const media = () => {
 
 if(media <= 3) {
   res.innerHTML += `<p>Com a média abaixo de 3, o aluno está <mark style="background-color:red"}><strong>REPROVADO</strong></mark></p>`
-    }else if(media <= 6 && media > 3){
+    } else if(media <= 6 && media > 3){
       res.innerHTML += `<p>Com média entre 3 e 6 o aluno está em <mark style="background-color:yellow"}><strong>RECUPERAÇÃO</strong></mark></p>`
     }
       if(media > 6)
