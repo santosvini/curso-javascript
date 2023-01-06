@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body, html {
+  background-color: #7D8BFA;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+main {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+#login {
+  background: whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 250px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 18px;
+  transform: translate(-50%, -50%);
+}
+
+#login #img {
+  display: block;
+  background: black url('../img/pexels-js.jpg') no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+}
+
+#login #form {
+  display: block;
+  padding: 8px;
+  font-size: .8em;
+}
+
+#form h1 {
+  text-align: center;
+  padding: 8px;
+}
+
+#form p {
+  text-align: center;
+  padding: 8px;
+}
