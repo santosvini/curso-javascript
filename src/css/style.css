@@ -4,22 +4,23 @@
   box-sizing: border-box;
 }
 
-body {
-  font: 18px Arial;
+body, html {
+  background-image: linear-gradient(to left, #ffffff, #404F62);
 }
 
 h1 {
-  color: coral;
+  color: #27292A;
+  font: 700 28px Helvetica;
   text-align: center;
-  margin-bottom: 14px;
-  padding-top: 12px;
+  margin: 14px;
+  padding-top: 18px;
 }
 
 section {
   background-color: lightgrey;
   margin: 0 auto;
-  width: 220px;
-  justify-content: center;
+  width: 200px;
+  height: 28vh;
   border-radius: 4px;
   box-shadow: 2px 4px 8px black;
 }
@@ -31,7 +32,16 @@ div {
 }
 
 a {
+  display: block;
   font: 20px Helvetica;
   color: black;
   text-decoration: none;
+  padding-top: 18px;
+}
+
+.material-icons {
+  position: absolute;
+  display: block;
+  top: 210px;
+  margin-left: 28px;
 }

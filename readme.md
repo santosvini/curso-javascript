@@ -1,93 +1,38 @@
-# Estudo de JavaScript - Curso em Vídeo
+# Curso em Vídeo - Javascript
 
-## Interações básicas com usuário
-~~~javascript
-- window.alert
-- window.prompt
-- window.confirm
-- document.write
+Este repositório visa apontar os ensinos e conceitos aplicados com ```Javascript``` e ```Cypress``` para testes de automação e2e, o mesmo está sendo construído aos poucos, assim como páginas contendo os desafios e exercícios criados.
 
-## Conversão para Inteiro
- - Number.parserInt()
+## Aprendizados
 
-## Conversão para Real
-- Number.parserFloat()
+Concluí este curso no final do ano passado, por ter focado em outras frentes de estudos mais voltados a área de QA/testes de software, meu aprendizado foi além inclusive saindo da caixa com aprendizado de laços de repetição principalmente, uma grande dificuldade, aproveitei meus conhecimentos e práticas em front e automação, para também por em prática as páginas aqui desenvolvidas e os testes também iniciados, espero que gostem e aproveitem. Aplicado conceitos como mobile-first, responsividades para telas maioreas como tablet e desktop, além de um formulário estilizado para login desse sistema de ensino.
 
-## Conversão para String
- - .toString() ou String()
- ~~~
+Aliás aqui esta a menção ao [gustavoguanabara](https://github.com/gustavoguanabara) :point_down:
+- [Curso em Vídeo](https://www.cursoemvideo.com/curso/javascript/)
 
-## Interações com a a página
+## Tecnologias 
 
-~~~javascript
-- var.length // qntdade de caracteres de uma string
-- var.toUpperCase() // tudo p/ MAIUSCULAS
-- var.toLowerCase() // tudo p/ minusculo
+- Javascript
+- HTML5
+- CSS3
+- Cypress
+- NodeJS
 
-- .toFixed() // quantidade de casas após a (,)
-- .replace('.', ',') // troca de ponto para (,)
-- .toLocaleString('pt-br', {style: 'currency', currency: 'BRL'})
-  // String por localização / Monetização
-~~~
+## Rodando os testes :test_tube:
 
-## Operadores Lógicos
-- ! -> negação (true/false) ou **NOT**
-- && -> conjunção ou **AND**
-- || -> disjunção ou **OR**
+Para rodar os testes, rode o seguinte comando
 
-## Comparação
-- Igual (==) = Retorna TRUE caso os operandos sejam iguais.
+```bash
+  npm run test
+```
 
-- Não igual (!=) = Retorna TRUE caso os operandos não sejam iguais.
+## Contribuindo
 
-- Estritamente igual (===) = Retorna TRUE caso os operandos sejam iguais e do mesmo tipo.
+Contribuições são sempre bem-vindas!
 
-- Estritamente não igual (!==) = Retorna TRUE caso os operandos não sejam iguais e/ou não sejam do mesmo tipo.
+## Feedback
 
-- Maior que (>) = Retorna TRUE caso o operando da esquerda seja maior que o da direita.
+Se você tiver algum feedback, por favor nos deixe saber por meio de [Issue](https://github.com/santosvini/curso-javascript/issues), fique a vontade para abri-lás
 
-- Maior que ou igual (>=) = Retorna TRUE caso o operando da esquerda seja maior ou igual ao da direita.
+### Autor :man_technologist:
 
-- Menor que (<) = Retorna TRUE caso o operando da esquerda seja menor que o da direita.
-
-- Menor que ou igual (<=) = Retorna TRUE caso o operando da esquerda seja menor ou igual ao da direita.
-
-## Ternários
-- (?) -> ternario true
-- : -> ternario false
-
-Ex: condicao ? valor1 : valor2;
-
-## Usando a DOM
-### Há 5 métodos de acesso ao DOM -> (Marca, ID, Nome, Classe e Seletor)
-
-~~~javascript
-- Marca = getElementsByTagName()
-- ID = getElementByID()
-- Nome = getElementsByName()
-- Classe = getElementsByClassName()
-- Selector = querySelector()/querySelectorAll()
-~~~
-
-- O id é representado pela (#)
-- E o class pelo (.)
-
-- Usar o addEventListener para escutar qualquer objeto da DOM.
-
-~~~javascript
-var.addEventListener('click', clicar);
-~~~
-
-- Usar o style.background para alterar o estilo do tag ou seletor em questão.
-
-~~~javascript
-var.style.background = 'orange';
-~~~
-
-- Utilizar o innerText e innerHTML para manipulação do texto
-
-~~~javascript
-var.innerText = 'Estou aguardando'
-var.innerHTML = 'Vou mudar a escrita'
-~~~
-
+- [@santosvini](https://github.com/santosvini)
